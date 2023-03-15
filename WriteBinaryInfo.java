@@ -1,6 +1,7 @@
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
 /** 
  * ACS-1904 Assignment 1
  * @Sveinson 
@@ -21,6 +22,8 @@ public class WriteBinaryInfo{
             ods.writeUTF(name[i]);
             ods.writeInt(age[i]);
         }
+        
+        ods.close();
         System.out.println("Data written to file");
 
         System.out.println("\nend of program");

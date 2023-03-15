@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="17.0.4.1" class="java.beans.XMLDecoder">
+<java version="11.0.14.1" class="java.beans.XMLDecoder">
  <object class="java.util.ArrayList">
   <void method="add">
    <object class="Cat">
+<<<<<<< HEAD
     <void property="age">
      <int>17</int>
     </void>
+=======
+>>>>>>> 6a2490196e4869d0884ade6efb1404f68706231e
     <void property="name">
      <string>Emerson</string>
     </void>
@@ -13,9 +16,12 @@
   </void>
   <void method="add">
    <object class="Cat">
+<<<<<<< HEAD
     <void property="age">
      <int>1</int>
     </void>
+=======
+>>>>>>> 6a2490196e4869d0884ade6efb1404f68706231e
     <void property="name">
      <string>Rincewind</string>
     </void>
@@ -23,9 +29,12 @@
   </void>
   <void method="add">
    <object class="Cat">
+<<<<<<< HEAD
     <void property="age">
      <int>16</int>
     </void>
+=======
+>>>>>>> 6a2490196e4869d0884ade6efb1404f68706231e
     <void property="name">
      <string>Alax</string>
     </void>

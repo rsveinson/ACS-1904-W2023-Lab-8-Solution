@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.Serializable;
+
 /** 
  * ACS-1904 Assignment 1
  * @Sveinson 

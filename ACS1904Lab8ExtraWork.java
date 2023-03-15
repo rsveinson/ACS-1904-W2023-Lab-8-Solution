@@ -24,18 +24,18 @@ public class ACS1904Lab8ExtraWork{
         
         printList(cats);
         
+        // **** write the list to an xml file ****
         // open the output stream
         XMLEncoder encoder = new XMLEncoder(new FileOutputStream("cats.xml"));
         encoder.writeObject(cats);
         encoder.close();
         
-        // ****** new read it back *************
+        // ****** now read it back *************
         XMLDecoder decoder = new XMLDecoder(new FileInputStream("cats.xml"));
         ArrayList<Cat> newCats = new ArrayList<>();
-        newCats = (ArrayList) decoder.readObject();
-        decoder.close();
-        
+        newCats = (ArrayList)decoder.readObject();
         printList(newCats);
+        
         
 
         System.out.println("end of program");
